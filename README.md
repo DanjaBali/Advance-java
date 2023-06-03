@@ -4,7 +4,7 @@
 ![image](https://github.com/DanjaBali/Advanced-java/assets/48566297/75cf9416-4a01-40bb-a7a4-59a8409a86e7)
 
 
-Implementation
+Implementation:
 The program is implemented mainly with the followingclasses, and methods respectively.
 
 The MainAppOfNGramer class includes following methods and operations: The execute() method is responsible for calling and executing all unigram, twogram, cosineSimilarity and threads methods.
@@ -23,5 +23,5 @@ incCount() method, getCosineSimilarityWith() method, getNorm() method, and getCo
 
 The FileContent class saves the content of all files for each languages, with the help of geter and seter methods. The language class help us to read the path of language folders. The NGram class help us make the calculation for Bigram calculation. It implements iterator interface. We have two overridden method here, hasNext() method and Next() method which make possible to return two pair of letters, BiGram length -2 letters. The class FileSimilarity help us to save the similarity between files.
 
-Conclusion
+Conclusion:
 The natural language processing Java program, successfully preform the task of language classification. And construct two language models in Java, Albanian, English. It also calculates the document distance, otherwise known as cosine similarity of each language model. The program makes use of streams and lambdas in order to concisely process the text data and update the language models via threads. This enables the program to perform language classification effectively and efficiently.
